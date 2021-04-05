@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentA">
+
+    <activity
+        android:id="@+id/fragmentsActivity"
+        android:name="com.example.android.lab2.ui.FragmentsActivity"
+        android:label="activity_fragments"
+        tools:layout="@layout/activity_fragments" />
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/fragmentC">
+        <fragment
+            android:id="@+id/fragmentC"
+            android:name="com.example.android.lab2.fragments.FragmentC"
+            android:label="fragment_c"
+            tools:layout="@layout/fragment_c" />
+        <fragment
+            android:id="@+id/fragmentA"
+            android:name="com.example.android.lab2.fragments.FragmentA"
+            android:label="fragment_a"
+            tools:layout="@layout/fragment_a">
+            <action
+                android:id="@+id/action_fragmentA_to_fragmentB"
+                app:destination="@id/fragmentB" />
+        </fragment>
+        <fragment
+            android:id="@+id/fragmentB"
+            android:name="com.example.android.lab2.fragments.FragmentB"
+            android:label="fragment_b"
+            tools:layout="@layout/fragment_b">
+            <action
+                android:id="@+id/action_fragmentB_to_fragmentC"
+                app:destination="@id/fragmentC" />
+        </fragment>
+        <activity
+            android:id="@+id/fragmentCActivity"
+            android:name="com.example.android.lab2.fragments.FragmentCActivity"
+            android:label="activity_fragment_c"
+            tools:layout="@layout/activity_fragment_c" />
+    </navigation>
+</navigation>

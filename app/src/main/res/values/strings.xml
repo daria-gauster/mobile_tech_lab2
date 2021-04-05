@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Lab2</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="bifidobacteria">
+        <item>B. bifidum</item>
+        <item>B. breve</item>
+        <item>B. infantis</item>
+        <item>B. longum</item>
+    </string-array>
+    <string-array name="bifidobacteriaInfo">
+        <item>Type species of genus; highly variable in appearance; serovar a predominates in feces of human adults, b predominates in that of infants; contains strains once identified as Lactobacillus bifidus var. pennsylvanicus (György).</item>
+        <item>Represent the shortest and thinnest rods among bifidobacteria found in the human intestine; also found in human vagina and clinical material; most related to B. infantis and B. longum (40–60% DNA homology).</item>
+        <item>Pentose-negative forms predominate in feces of breastfed infants, also found in human vagina; closely related to B. longum, can be differentiated on the basis that members of B. longum ferment both arabinose and melezitose.</item>
+        <item>Can form elongated and relatively thin cells; two biovars are defined, biovar a is found in adult humans and biovar b is found in infants and is mannose negative; only species isolated from humans that usually harbors a large variety of plasmids.</item>
+    </string-array>
+
+    <string-array name="lactobacteria">
+        <item>L. acidophilus</item>
+        <item>L. gasseri</item>
+        <item>L. reuteri</item>
+        <item>L. bulgaricus</item>
+    </string-array>
+    <string-array name="lactobacteriaInfo">
+        <item>Lactobacillus acidophilus is one of the most important strains of Lactobacillus in the group of lactic acid bacteria. This bacterium lives most often in the small intestine, where it helps maintain a healthy intestinal wall to ensure the necessary absorption of nutrients and function of the overall digestive system.</item>
+        <item>L gasseri is a relatively new bacterium among probiotic strain species. This lactic acid bacteria is predominantly associated with the vaginal microflora.</item>
+        <item>L. reuteri bacteria are located in both, in the intestines and the oral cavity. Studies in humans have shown that the bacterium L. reuteri supports the health of the gastrointestinal tract, oral microflora and immune system.</item>
+        <item>The bacteria L. Bulgaricus was one of the first probiotic strains in history that was studied. Ilya Mechnikov, a Russian Nobel laureate, first isolated the Lactobacillus bulgaricus strain from fermented sour milk in 1882 when he discovered that the longevity of the Balkan people was due to eating fermented foods (fermented sour milk, kefir, sauerkraut, etc.).</item>
+    </string-array>
+</resources>

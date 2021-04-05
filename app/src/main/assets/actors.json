@@ -1,0 +1,33 @@
+[
+  { "id": 1,
+    "name": "Arnold Schwarzenegger",
+    "dateOfBirth": "July 30, 1947",
+    "movie": "Predator",
+    "quote": "Love stories are built around people's idiosyncrasies.",
+    "height": "6'2\""
+    
+  },
+    {"id": 2,
+    "name": "Keanu Reeves",
+    "dateOfBirth": "September 2, 1964",
+    "movie": "Matrix",
+    "quote": "I am not handsome or sexy. Of course, it's not like I am hopeless.",
+    "height": "6'1\""
+    
+  },
+    {"id": 3,
+    "name": "Rachel McAdams",
+    "dateOfBirth": "November 17, 1978",
+    "movie": "Mean Girls",
+    "quote": "If I hurt someone, if I were to accidentally poke someone's eye out, I would laugh. And then I'd say, 'I'm sorry, I really do feel bad,' but then I'm on the floor rolling.",
+    "height": "5'4\""
+  },
+    {"id": 4,
+    "name": "Antonio Banderas",
+    "dateOfBirth": "August 10, 1960",
+    "movie": "Shrek 2",
+    "quote": "I get more attention as the pussycat in Shrek the Third (2007) than I ever did as Zorro.",
+    "height": "5'8\""
+  }
+]
+  

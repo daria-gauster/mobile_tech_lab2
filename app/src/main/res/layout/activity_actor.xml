@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.actors.ActorActivity">
+
+    <ImageView
+        android:id="@+id/ivActorActivityPortait"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvActorActivityName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvActorActivityDateOfBirth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_weight="1.3"
+        app:layout_constraintTop_toBottomOf="@+id/ivActorActivityPortait" />
+
+    <TextView
+        android:id="@+id/tvActorActivityDateOfBirth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Date of Birth"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvActorActivityMovie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvActorActivityName" />
+
+    <TextView
+        android:id="@+id/tvActorActivityMovie"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Movie"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvActorActivityHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/tvActorActivityDateOfBirth" />
+
+    <TextView
+        android:id="@+id/tvActorActivityHeight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Height"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvActorActivityQuote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/tvActorActivityMovie" />
+
+    <TextView
+        android:id="@+id/tvActorActivityQuote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Quote"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnActorActivityBackToMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_weight="5"
+        android:lineSpacingMultiplier="1.2"
+        app:layout_constraintTop_toBottomOf="@+id/tvActorActivityHeight" />
+
+    <Button
+        android:id="@+id/btnActorActivityBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="back"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvActorActivityQuote" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
